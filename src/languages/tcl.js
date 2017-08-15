@@ -17,7 +17,7 @@ function(hljs) {
       'return safe scan seek set socket source split string subst switch tcl_endOfWord '+
       'tcl_findLibrary tcl_startOfNextWord tcl_startOfPreviousWord tcl_wordBreakAfter '+
       'tcl_wordBreakBefore tcltest tclvars tell time tm trace unknown unload unset update '+
-      'uplevel upvar variable vwait while',
+      'uplevel upvar variable vwait while tojson',
     contains: [
       hljs.COMMENT(';[ \\t]*#', '$'),
       hljs.COMMENT('^[ \\t]*#', '$'),
